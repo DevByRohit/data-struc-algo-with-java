@@ -66,7 +66,14 @@ Rules for the execution of java code
 2. Compile your Java code -> javac className.java
 3. Run your Java code -> java className
 
+
+# How java works
+Java is compiled into the bytecode and then it is interpreted to machine code
+
+Source code  ------> bytecode -------> Machine code
+
 */
+
 public class A_what_is_java {
     public static void main(String[] args) {
         System.out.println("Hello World!");
