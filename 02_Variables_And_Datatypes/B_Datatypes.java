@@ -60,11 +60,21 @@ Object	                         null
 Type casting is the process of converting one data type into another.
 
 Two Types of Type Casting:
-2. Implicit Casting (Widening Conversion): Automatic conversion of smaller data types to larger data types.
+2. Implicit Casting (Widening Conversion):
+Implicit casting, also known as widening conversion, occurs automatically when a smaller data type is assigned to a larger data type. No data loss occurs during this type of casting.
+
+# Widening Conversion Order
+byte -> short -> int -> long -> float -> double
+
 int a = 100;
 long b = a;  // Implicit casting from int to long
 
-2. Explicit Casting (Narrowing Conversion): Manual conversion of larger data types to smaller data types.
+2. Explicit Casting (Narrowing Conversion):
+Explicit casting, also known as narrowing conversion, requires manual conversion from a larger data type to a smaller data type. This type of casting can result in data loss or truncation.
+
+Narrowing Conversion Order
+double -> float -> long -> int -> short -> byte
+
 double d = 9.99;
 int i = (int) d;  // Explicit casting from double to int
 
@@ -72,15 +82,13 @@ int i = (int) d;  // Explicit casting from double to int
 
 public class B_Datatypes {
     public static void main(String[] args) {
-        System.out.println("Datatypes in Java");
-
         // Advanced type casting primitive to non-primitive
         int a = 12;
         int x = 5;
         String b = String.valueOf(a);
         System.out.println(a + 12);
         System.out.println(b + 12);
-        
+
         // non-primitive to primitive
         String c = "12";
         int d = Integer.parseInt(c);
