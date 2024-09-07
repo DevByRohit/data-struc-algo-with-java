@@ -119,7 +119,7 @@ Boolean	        is/has/can/should	        isActive, hasPermission
 
 */
 
-public class B_Naming_Conventions {
+public class B_NamingConventions {
     public static void main(String[] args) {
         System.out.println("Naming conventions");
     }

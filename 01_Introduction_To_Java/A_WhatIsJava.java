@@ -74,7 +74,7 @@ Source code  ------> bytecode -------> Machine code
 
 */
 
-public class A_what_is_java {
+public class A_WhatIsJava {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }

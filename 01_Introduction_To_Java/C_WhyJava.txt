@@ -1,0 +1,19 @@
+Q. Why you must learn Java?
+1. One of the most popular language. Java currently runs on 60,00,00,00,000 devices.
+2. Wide usage (Web-Applications, Mobile-Applications, Enterprise Software) etc.
+3. High paying and lots of jobs.
+4. Object Oriented Programming Language
+5. Rich APIs and Community support.
+
+Q. What is a Programming Language?
+-> Giving instructions to a computer.
+-> Instructions:- Tells computer what to do.
+-> These instructions are called code.
+-> Human instructions are given in high level language.
+
+Q. What is IDE?
+1. IDE stands for Integrated Development Environment.
+2. Software suit that consolidates basic tools required for Software Development.
+3. Central hub for coding, finding problems, and testing.
+4. Designed to improve developer efficiency.
+

@@ -158,6 +158,7 @@ public class A_Operators {
         a = 10;
         b = 20;
         boolean result = a < b; // result = true
+        System.out.println("Result: " + result);
 
         // Logical Operators
         boolean x = true;
@@ -168,6 +169,7 @@ public class A_Operators {
         a = 5; // 0101 in binary
         b = 3; // 0011 in binary
         int result2 = a & b; // result = 1 (0001 in binary)
+        System.out.println(result2);
 
         // Assignment Operators
         b = 10;
@@ -176,15 +178,17 @@ public class A_Operators {
         // Unary Operators
         int xy = 10;
         xy++; // xy becomes 11 (post-increment)
+        System.out.println(xy);
 
         // Ternary Operator (Conditional Operator)
         a = 10;
         b = 20;
         int result3 = (a > b) ? a : b; // result
+        System.out.println("Result: " + result3);
 
         // Shift Operators
         a = 8; // 1000 in binary
         int result4 = a << 1; // result = 16 (10000 in binary)
-
+        System.out.println(result4);
     }
 }
